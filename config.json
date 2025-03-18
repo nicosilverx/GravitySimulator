@@ -1,0 +1,26 @@
+{
+    "Sun":
+        {
+            "initialPosition" : [512, 768],
+            "initialVelocity" : [0.01, 0],
+            "mass" : 10E12,
+            "radius" : 25,
+            "colorRgb" : [1,1,0]
+        },
+    "planet":
+        {
+            "initialPosition" : [512, 256],
+            "initialVelocity" : [0.25, 0],
+            "mass" : 10E9,
+            "radius" : 10,
+            "colorRgb" : [0,1,0]
+        },
+    "planet2":
+        {
+            "initialPosition" : [512, 128],
+            "initialVelocity" : [0.25, 0],
+            "mass" : 10E9,
+            "radius" : 10,
+            "colorRgb" : [0,1,0]
+        }
+}
