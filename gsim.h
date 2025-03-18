@@ -8,7 +8,7 @@ const float PI = 3.14159265358979323846f;
 const float G = 6.67E-11;
 const int MESH_RES = 50;
 const int TRAJ_RES = 1;
-const int TRAJ_BUFF_SIZE = 50;
+const int TRAJ_BUFF_SIZE = 250;
 
 const int SCREEN_WIDTH = 1024;
 const int SCREEN_HEIGTH = 1024;
