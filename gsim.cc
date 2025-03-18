@@ -166,14 +166,6 @@ int main(int argc, char** argv) {
 
     GravitySimulator gSim;
 
-    Body body1({SCREEN_WIDTH/3, SCREEN_HEIGTH*1/3}, {0.5,0.25}, 1E12, 5, {1,0,0});
-    Body body2({SCREEN_WIDTH/2, SCREEN_HEIGTH*2/3}, {-0.15,-0.25}, 1E12, 5, {0,1,0});
-    //Body body3({SCREEN_WIDTH*2/3, SCREEN_HEIGTH*1/3},{-0.25, 0.15}, 1E14, 5, {0,0,1});
-
-    //gSim.addBody(body1);
-    //gSim.addBody(body2);
-    //gSim.addBody(body3);
-
     gSim.loadSceneFromFile("config.json");
 
     glutInit(&argc, argv); // Initialize GLUT
